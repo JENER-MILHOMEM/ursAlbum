@@ -146,7 +146,7 @@ export default function ImageViewer({
             </h2>
           </div>
 
-          {/* Badges de metadados da foto */}
+
           {(currentFoto.local || currentFoto.data || currentFoto.profissional_responsavel) && (
             <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 pt-3 border-t border-[var(--border-subtle)] text-xs sm:text-sm text-[var(--text-secondary)]">
               {currentFoto.local && (
